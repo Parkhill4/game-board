@@ -12,6 +12,6 @@ public class diceRollScript : MonoBehaviour
     {       
            DiceValue = Random.Range(1, 7);
            number.text = "You rolled " + DiceValue + "!";
-           Debug.Log("Rolled: " + DiceValue);
+           //Debug.Log("Rolled: " + DiceValue);
     }
 }
